@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam 登录</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+<body>
+    <div class="header">
+        <div class="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="logo">
+            <img src="https://steamstore-a.akamaihd.net/public/shared/images/header/logo_steam.svg?t=962016" alt="Steam Logo">
+        </div>
+    </div>
+    <div class="container">
+        <div class="login-form">
+            <h1>登录</h1>
+            <label for="username"style="color:#1b8dff">用账户名称登录</label>
+            <input type="text" id="username" name="username">
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password">
+            <label>
+                <input checked="checked" type="checkbox" name="remember"> 记住我
+            </label>
+            <a href="../HTML/menu.html"><button type="submit" >登录</button></a>
+            <div class="help-links">
+                <a href="#">请求帮助，我无法登录。</a>
+            </div>
+            
+        </div>
+        <p style="color: #007bff;">全新！</p>
+        <div class="qr-login">
+                <p>Steam 手机应用用户可以通过,<br>扫描二维码登录。</p>
+                <button class="display-qr">显示二维码</button>
+            </div>
+            <div class="help-links">
+                <a href="#">了解更多</a>
+            </div>
+        <div class="create-account">
+            <p class="font">首次使用Steam？</p>
+            <button type="button" onclick="window.location.href='./signin.html'">创建帐户</button>
+            <p>创建帐户既免费又简单。探索成千上万款游戏，<br>与数百万新朋友一起畅玩吧！<a href="#">了解更多关于<br> Steam 的信息</a></p>
+        </div>
+    </div>
+</body>
+</html>

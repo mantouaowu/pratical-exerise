@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(32,33,38);
+    color: #fff;
+    width: 100vw;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+    background-color: #444;
+}
+.profile-header img {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 20px;
+}
+.profile-header .profile-info {
+    
+    flex-grow: 1;
+}
+.profile-header .profile-info h1 {
+    margin-bottom: 1vw;
+    font-size: 4vw;
+}
+.profile-header .profile-info p {
+    margin: 5vw 0;
+    color: #bbb;
+}
+.profile-header .profile-info .view-profile {
+    background-color: #555;
+    border: none;
+    padding: 2vw 6vw;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+}
+.main-content {
+    width: 100vw;
+}
+.main-content .stats {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+;
+}
+.main-content .stats .stat {
+    text-align: center;
+    background-color: rgb(40, 44, 52);
+    width: 25%;
+    border-radius: 5px;
+    font-size: 2.5vw;
+}
+.main-content .stats .stat h2 {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-size: 3vw;
+;
+}
+.main-content .stats .stat p {
+    margin-top: 0%;
+    color: rgb(140, 146, 154);
+    
+}
+.main-content .add-friend-container {
+    
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.main-content .add-friend-container .add-friend {
+    display: block;
+    width: 90%;
+    padding: 3vw ;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 4vw;
+}
+.main-content .mycontent{
+    background-color: rgb(40,44,52);
+    padding: 2vw 3vw;
+    color: rgb(140, 146, 154);
+    font-size: 2vw;
+
+}
+.main-content .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-content .menu li {
+    padding: 3vw;
+    border-bottom: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40,44,52);
+}
+
+.main-content .menu li a {
+    color: white ;
+    text-decoration: none;
+    flex-grow: 1;
+    font-size: 3vw;
+}
+.main-content .menu li .icon {
+    color: #bbb;
+}
+
+
+
+.main-content .other {
+    margin: 0px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(32,33,38);
+}
+.main-content .other a {
+    border-bottom: none;
+    color: white;
+    text-decoration: none;
+}
+
+.main-content .other li {
+    text-decoration: none;
+    padding: 3vw;
+    font-size: 2.5vw;
+    border-bottom: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

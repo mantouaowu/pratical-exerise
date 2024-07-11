@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background: url("../image/background.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+.header {
+    margin-top: 4px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #0e0e10;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.menu-icon {
+    margin-left: 3vw;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.menu-icon div {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+}
+.logo img {
+    height: 40px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 80px; 
+}
+.login-form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-form h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    margin: 0%;
+    border: 0%;
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login-form label [type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 100px;
+
+    
+}
+
+.login-form button {
+    width: 88%;
+    padding: 20px;
+    background-color: #1b8dff;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background-color: #007bff;
+}
+.help-links {
+    text-align: center;
+    margin-top: 20px;
+}
+.help-links a {
+    color: gray;
+}
+.help-links a:hover {
+    text-decoration: underline;
+}
+.qr-login {
+    margin: 20px 0;
+    text-align: center;
+    color: gray;
+}
+.qr-login .display-qr{
+    width: 100%;
+    background-color: rgba(50, 50, 50, 0.3);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0px 10px 00px;
+    border: 0px;
+    font-size: large;
+}
+.qr-login .help-links{
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.create-account .font{
+    font-size: 30px;
+    color: white;
+}
+.create-account {
+    margin-top: 40px;
+    text-align: center;
+}
+.create-account button {
+    background-color: #1b8dff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.create-account button:hover {
+    background-color: #007bff;
+}
+.create-account p {
+    margin-top: 80px;
+    font-size: 20px;
+    color:gray;
+}
+.create-account a {
+    color: gray;
+}
+.create-account a:hover {
+    text-decoration: underline;
+}

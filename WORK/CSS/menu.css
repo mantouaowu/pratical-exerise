@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 44, 52);
+}
+/* 顶部 */
+.header{
+    display: flex;
+    width: 100vw;
+    height: 15vw;
+    background-color: rgb(32, 33, 38);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content:space-between;  
+}
+
+.header .iconfont {
+    font-size: 5vw;
+    color: rgb(222, 227, 230);
+    margin-left: 3vw;
+}
+.header .header-center{
+    font-size: 5vw;
+    color: rgb(222, 227, 230);
+    margin-right: 5vw;
+} 
+.header .header-right img{
+    margin-right: 3vw;
+    width: 12vw;
+    height: 12vw;
+}
+/* 底部 */
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 15vw;
+  background-color: rgb(32, 33, 38);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.footer .iconfont {
+    font-size: 6vw;
+    color: rgb(222, 227, 230);
+
+}
+.footer .nowpage{
+    color: rgb(29, 146, 219);
+
+}
+.jump{
+    text-decoration: none;
+}
+
+/* 主体 */
+.container{
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+    
+}
+.menu {
+    width: 100vw;
+}
+.menu-section {
+    margin-bottom: 20px;
+}
+.menu-section .menu-item {
+    color: rgb(222, 227, 230);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(52, 58, 72);
+}
+
+.menu-section .menu-item .iconfont {
+    margin-right: 15px;
+    font-size: 8vw;
+}
+.menu-section .menu-item .text {
+    flex: 1;
+    font-size: 3vw;
+     
+}
+.menu-section .menu-item .notification {
+    background-color: rgb(48, 184, 48);
+    color: rgb(32, 33, 38);
+    padding: 2vw 1.5vw;
+    border-radius: 3px;
+    margin-right: 3vw;
+    font-size: 3vw;
+}
+
+
+
+.feedback .menu-item{
+    color: rgb(137,146,155);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+.feedback .iconfont {
+    font-size: 5vw;
+    color: rgb(137,146,155);
+}
+
+.feedback .menu-item .text {
+    flex: 1;
+    font-size: 3vw;
+    margin-left: 3vw;
+}
+.trademark{
+    width: 40vw;
+    height: 15vw;
+}
+.instruction{
+    padding-left: 20px;
+    color: rgb(137,146,155);
+    font-size: 3vw;
+
+}
+.instruction a{
+    font-size: 3vw;
+    color: rgb(137,146,155);
+}
+
